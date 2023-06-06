@@ -41,5 +41,5 @@ else:
         bar_df = pickle.load(f)
         bar_df = bar_df.loc[(bar_df['patient_id'] == patient_id) ,:]
 
-chart = alt.layer(get_bar_chart(bar_df))
+chart = alt.layer(get_bar_chart(bar_df),get_point_chart(dot_df))
 st.altair_chart(chart,use_container_width=True)
