@@ -42,22 +42,22 @@ def get_start_datetime(heart_rate_df,step_df,qor15_df):
 
 def get_empty_df_by_name(name,start_date:datetime):
     if name == 'qor15':
-        df = pd.DataFrame(columns = ['record_date','is_empty','complete_num','chart_height'])
+        df = pd.DataFrame(columns = ['record_date','is_empty','complete_num','chart_height','type'])
         data_range = pd.date_range(start=start_date,end = (start_date + datetime.timedelta(days=29)),freq = "D")
         df = df.set_index('record_date').reindex(index = data_range).reset_index()
-        df = df.assign(is_empty = 'empty',complete_num = '0',chart_height = 1)
+        df = df.assign(is_empty = 'empty',complete_num = '0',chart_height = 1,type = 'Qor')
         df.rename(columns={'index':'record_date'},inplace=True)
     elif name == 'heart_rate':
-        df = pd.DataFrame(columns = ['record_date'])
+        df = pd.DataFrame(columns = ['record_date','type'])
         data_range = pd.date_range(start=start_date,end = (start_date + datetime.timedelta(days=29)),freq = "D")
         df = df.set_index('record_date').reindex(index = data_range).reset_index()
-        df = df.assign(is_empty = 'empty',max_HR = '0',min_HR = '0',avg_HR = '0',chart_height = 3)
+        df = df.assign(is_empty = 'empty',max_HR = '0',min_HR = '0',avg_HR = '0',chart_height = 3,type = 'HR')
         df.rename(columns={'index':'record_date'},inplace=True)
     elif name == 'step':
-        df = pd.DataFrame(columns = ['record_date'])
+        df = pd.DataFrame(columns = ['record_date','type'])
         data_range = pd.date_range(start=start_date,end = (start_date + datetime.timedelta(days=29)),freq = "D")
         df = df.set_index('record_date').reindex(index = data_range).reset_index()
-        df = df.assign(is_empty = 'empty',steps = '0',chart_height = 2)
+        df = df.assign(is_empty = 'empty',steps = '0',chart_height = 2,type = 'step')
         df.rename(columns={'index':'record_date'},inplace=True)
     return df
 

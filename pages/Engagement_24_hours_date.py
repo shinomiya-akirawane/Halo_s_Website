@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import altair as alt
-
+import os
 def get_point_chart(data):
     if len(data) < 0:
         return alt.LayerChart()
@@ -18,11 +18,11 @@ with_zero = st.checkbox('Drop zero data')
 displayElem = st.multiselect('Please choose heart rate or step or qor15',['heart rate','step','qor15'],default=None)
 graph_title = st.subheader('Data availability of NO.'+ str(patient_id))
 if with_zero == True:
-    with open('C:\\Users\\shinomiya_akirawane\\Desktop\\HALO-S\\HALO-S\\halo_s_website\\df_data\\Engagement_24_hours_date_without_zero.pkl','rb') as f:
+    with open(os.path.join('.','df_data','Engagement_24_hours_date_without_zero.pkl'),'rb') as f:
         chart_df = pickle.load(f)
         chart_df = chart_df.loc[(chart_df['patient_id'] == patient_id) ,:]
 else:
-    with open('C:\\Users\\shinomiya_akirawane\\Desktop\\HALO-S\\HALO-S\\halo_s_website\\df_data\\Engagement_24_hours_date_with_zero.pkl','rb') as f:
+    with open(os.path.join('.','df_data','Engagement_24_hours_date_with_zero.pkl'),'rb') as f:
         chart_df = pickle.load(f)
         chart_df = chart_df.loc[(chart_df['patient_id'] == patient_id) ,:]
 chart = alt.LayerChart()
