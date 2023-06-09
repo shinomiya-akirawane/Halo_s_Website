@@ -52,7 +52,7 @@ def get_point_chart(data,tooltip):
     domain_scale = alt.Scale(domain = ['empty','full'],range = ['#FF0000','#00CC66'])
     chart = alt.Chart(data).mark_circle().encode(
         alt.X('record_date:T'),
-        alt.Y('type:N'),
+        alt.Y('type:N',scale = alt.Scale(padding=10)),
         color = alt.Color('is_empty:N',scale = domain_scale),  
         tooltip = tooltip,
         

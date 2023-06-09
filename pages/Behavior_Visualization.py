@@ -15,7 +15,7 @@ def get_point_chart(data):
 
 # page strcutrue start here
 patient_id = st.number_input('patient id',min_value=1,max_value=42)
-with_zero = st.checkbox('Show only active periods',disabled=True)
+with_zero = st.checkbox('Show only active periods',value = True)
 displayElem = st.multiselect('Please choose heart rate or step or qor15',['heart rate','step','qor15'],default=None)
 graph_title = st.subheader('Data availability of NO.'+ str(patient_id))
 if with_zero == True:
