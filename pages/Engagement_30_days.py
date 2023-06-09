@@ -14,10 +14,9 @@ def rtn_preprocessed_qor15_df(qor_15_df,default_start_date):
     qor_15_date = qor_15_df['submit_datetime'].drop_duplicates().reset_index().drop(['index'],axis = 1)
     result_df = pd.concat([qor_15_date,
                           pd.Series(data = [None for i in range(0,len(qor_15_date))],name = 'is_empty'),
-                          pd.Series(data=[15 for i in range(0,len(qor_15_date))],name = 'complete_num'),
-                          pd.Series(data=['Qor' for i in range(0,len(qor_15_date))],name = 'type')],axis=1)
+                          pd.Series(data=[15 for i in range(0,len(qor_15_date))],name = 'complete_num')],axis=1)
     result_df.rename(columns={'submit_datetime':'record_date'},inplace=True)
-    return tool.auto_complete_missing_time(result_df,0,1,2).assign(chart_height = 1)
+    return tool.auto_complete_missing_time(result_df,0,1,2).assign(chart_height = 1,type = 'QoR')
 
 
 def rtn_preprocessed_heart_rate_df(heart_rate_df,default_start_date):
@@ -30,10 +29,9 @@ def rtn_preprocessed_heart_rate_df(heart_rate_df,default_start_date):
     avg_HR_df.iloc[:,1] = avg_HR_df.iloc[:,1].astype(int)
     result_df = pd.concat([min_HR_df['start_datetime'],
                            pd.Series(data = [None for i in range(0,len(min_HR_df))],name = 'is_empty')
-                            ,min_HR_df['min_HR'],max_HR_df['max_HR'],avg_HR_df['avg_HR'],
-                            pd.Series(data=['HR' for i in range(0,len(min_HR_df))],name = 'type')],axis=1)
+                            ,min_HR_df['min_HR'],max_HR_df['max_HR'],avg_HR_df['avg_HR']],axis=1)
     result_df.rename(columns={'start_datetime':'record_date'},inplace=True)
-    return tool.auto_complete_missing_time(result_df,0,1,2).assign(chart_height = 3)
+    return tool.auto_complete_missing_time(result_df,0,1,2).assign(chart_height = 3,type = 'HR')
 
 def rtn_preprocessed_step_df(step_df,default_start_date):
     if len(step_df) == 0:
@@ -43,10 +41,9 @@ def rtn_preprocessed_step_df(step_df,default_start_date):
     avg_step_df.iloc[:,1] = avg_step_df.iloc[:,1].astype(int)
     result_df = pd.concat([avg_step_df['start_datetime'],
                            pd.Series(data = [None for i in range(0,len(avg_step_df))],name = 'is_empty'),
-                           avg_step_df['steps'],
-                           pd.Series(data=['step' for i in range(0,len(avg_step_df))],name = 'type')],axis = 1)
+                           avg_step_df['steps']],axis = 1)
     result_df.rename(columns={'start_datetime':'record_date'},inplace=True)
-    return tool.auto_complete_missing_time(result_df,0,1,2).assign(chart_height = 2)
+    return tool.auto_complete_missing_time(result_df,0,1,2).assign(chart_height = 2,type = 'Step')
 
 # Generate Graph
 def get_point_chart(data,tooltip):
@@ -55,7 +52,7 @@ def get_point_chart(data,tooltip):
     domain_scale = alt.Scale(domain = ['empty','full'],range = ['#FF0000','#00CC66'])
     chart = alt.Chart(data).mark_circle().encode(
         alt.X('record_date:T'),
-        alt.Y('type',scale = alt.Scale(domain=['HR','step','QoR'])),
+        alt.Y('type:N'),
         color = alt.Color('is_empty:N',scale = domain_scale),  
         tooltip = tooltip,
         
@@ -87,5 +84,6 @@ qor_tooltip = [
     alt.Tooltip('record_date:T',title = 'Date'),
     alt.Tooltip('complete_num:Q',title = 'complete num'),
 ]
+print(heart_rate_data,step_data,qor_15_data)
 chart = alt.layer(get_point_chart(heart_rate_data,heart_tooltip),get_point_chart(step_data,step_tooltip),get_point_chart(qor_15_data,qor_tooltip)).configure_circle(size=100)
 st.altair_chart(chart,use_container_width=True)

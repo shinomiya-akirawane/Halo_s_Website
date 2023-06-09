@@ -2,19 +2,20 @@ import streamlit as st
 import pickle
 import altair as alt
 import os
+
 def get_point_chart(data):
     if len(data) < 0:
         return alt.LayerChart()
     chart = alt.Chart(data).mark_circle().encode(
         alt.X('start_date:T'),
-        alt.Y('hoursminutes(start_time)'),
+        alt.Y('hoursminutes(start_time):T',scale = alt.Scale(domain=['2012-01-01T00:00:00', '2012-01-02T00:00:00'])),
         color = alt.Color('type:N')
     )
-    return chart.interactive()
+    return chart.interactive(bind_y = False)
 
 # page strcutrue start here
 patient_id = st.number_input('patient id',min_value=1,max_value=42)
-with_zero = st.checkbox('Drop zero data')
+with_zero = st.checkbox('Show only active periods',disabled=True)
 displayElem = st.multiselect('Please choose heart rate or step or qor15',['heart rate','step','qor15'],default=None)
 graph_title = st.subheader('Data availability of NO.'+ str(patient_id))
 if with_zero == True:
