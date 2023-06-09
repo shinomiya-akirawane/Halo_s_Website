@@ -8,7 +8,7 @@ def get_point_chart(data):
         return alt.LayerChart()
     chart = alt.Chart(data).mark_circle().encode(
         alt.X('start_date:T'),
-        alt.Y('hoursminutes(start_time):T',scale = alt.Scale(domain=['2012-01-01T00:00:00', '2012-01-02T00:00:00'])),
+        alt.Y('hoursminutes(start_time):T'),
         color = alt.Color('type:N')
     )
     return chart.interactive(bind_y = False)
