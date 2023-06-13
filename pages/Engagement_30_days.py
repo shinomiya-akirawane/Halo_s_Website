@@ -40,7 +40,6 @@ qor_tooltip = [
 with open(os.path.join('.','df_data','Engagement_30days.pkl'),'rb') as f:
     chart_df = pickle.load(f)
     chart_df = chart_df.loc[(chart_df['patient_id'] == patient_id) ,:]
-    print(chart_df)
     chart = alt.layer(get_point_chart(chart_df.loc[(chart_df['type'] == 'HR') ,:],heart_tooltip),
                   get_point_chart(chart_df.loc[(chart_df['type'] == 'Step') ,:],step_tooltip),
                   get_point_chart(chart_df.loc[(chart_df['type'] == 'QoR') ,:],qor_tooltip)
