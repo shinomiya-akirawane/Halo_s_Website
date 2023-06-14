@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import altair as alt
 import os
-import datetime 
+
 def get_point_chart(data):
     if len(data) < 0:
         return alt.LayerChart()
