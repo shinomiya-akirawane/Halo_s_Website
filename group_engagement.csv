@@ -1,0 +1,624 @@
+,date,patient_complete_num,type
+0,2023-02-27,6,HR hours
+1,2022-09-20,2,HR hours
+2,2022-10-07,5,HR hours
+3,2022-10-16,7,HR hours
+4,2022-11-25,4,HR hours
+5,2022-11-26,3,HR hours
+6,2022-11-27,4,HR hours
+7,2022-11-28,5,HR hours
+8,2022-11-29,6,HR hours
+9,2022-11-30,5,HR hours
+10,2022-12-01,5,HR hours
+11,2022-12-02,5,HR hours
+12,2022-12-03,4,HR hours
+13,2022-12-04,5,HR hours
+14,2022-12-05,5,HR hours
+15,2022-12-06,5,HR hours
+16,2022-12-07,4,HR hours
+17,2022-12-08,3,HR hours
+18,2022-12-10,2,HR hours
+19,2022-12-11,3,HR hours
+20,2022-12-12,2,HR hours
+21,2022-12-13,2,HR hours
+22,2022-12-16,2,HR hours
+23,2022-12-17,2,HR hours
+24,2022-12-18,2,HR hours
+25,2022-12-19,2,HR hours
+26,2022-12-20,2,HR hours
+27,2022-12-21,2,HR hours
+28,2022-12-22,2,HR hours
+29,2022-12-23,2,HR hours
+30,2022-12-24,1,HR hours
+31,2022-12-27,2,HR hours
+32,2022-12-28,1,HR hours
+33,2022-12-29,1,HR hours
+34,2023-02-13,4,HR hours
+35,2022-09-27,2,HR hours
+36,2022-09-28,3,HR hours
+37,2022-09-29,3,HR hours
+38,2022-09-30,3,HR hours
+39,2022-10-01,2,HR hours
+40,2022-10-02,2,HR hours
+41,2022-10-03,3,HR hours
+42,2022-10-04,3,HR hours
+43,2022-10-05,3,HR hours
+44,2022-10-06,4,HR hours
+45,2022-10-08,5,HR hours
+46,2022-10-09,4,HR hours
+47,2022-10-11,6,HR hours
+48,2022-10-12,7,HR hours
+49,2022-10-13,6,HR hours
+50,2022-10-14,6,HR hours
+51,2022-10-15,6,HR hours
+52,2022-10-17,6,HR hours
+53,2022-10-18,4,HR hours
+54,2022-10-20,6,HR hours
+55,2022-10-23,5,HR hours
+56,2022-10-27,7,HR hours
+57,2022-10-28,4,HR hours
+58,2022-10-24,4,HR hours
+59,2022-10-31,3,HR hours
+60,2022-11-03,4,HR hours
+61,2022-11-04,2,HR hours
+62,2022-11-06,3,HR hours
+63,2022-09-14,1,HR hours
+64,2022-09-15,1,HR hours
+65,2022-09-16,1,HR hours
+66,2022-11-14,5,HR hours
+67,2022-11-15,2,HR hours
+68,2022-11-16,2,HR hours
+69,2022-11-17,3,HR hours
+70,2022-11-18,2,HR hours
+71,2022-11-19,2,HR hours
+72,2022-11-20,2,HR hours
+73,2022-11-21,3,HR hours
+74,2022-11-22,3,HR hours
+75,2022-11-23,1,HR hours
+76,2022-11-24,2,HR hours
+77,2022-11-07,4,HR hours
+78,2022-11-10,4,HR hours
+79,2023-02-14,2,HR hours
+80,2023-02-15,2,HR hours
+81,2023-02-16,2,HR hours
+82,2023-02-28,5,HR hours
+83,2023-03-01,5,HR hours
+84,2023-03-02,3,HR hours
+85,2023-03-03,2,HR hours
+86,2023-03-04,3,HR hours
+87,2023-03-05,3,HR hours
+88,2023-03-06,4,HR hours
+89,2023-03-07,3,HR hours
+90,2023-03-08,3,HR hours
+91,2023-03-09,1,HR hours
+92,2023-03-10,2,HR hours
+93,2023-03-11,2,HR hours
+94,2023-03-12,3,HR hours
+95,2023-03-13,4,HR hours
+96,2023-03-14,4,HR hours
+97,2023-03-15,5,HR hours
+98,2023-03-16,2,HR hours
+99,2023-03-17,2,HR hours
+100,2023-03-18,2,HR hours
+101,2022-10-10,3,HR hours
+102,2022-10-19,4,HR hours
+103,2022-10-21,4,HR hours
+104,2022-10-22,4,HR hours
+105,2022-10-25,6,HR hours
+106,2022-10-26,4,HR hours
+107,2022-10-29,3,HR hours
+108,2022-10-30,2,HR hours
+109,2022-11-01,2,HR hours
+110,2022-11-02,3,HR hours
+111,2022-11-08,4,HR hours
+112,2022-11-09,4,HR hours
+113,2022-11-11,3,HR hours
+114,2022-12-09,2,HR hours
+115,2023-03-19,2,HR hours
+116,2023-04-05,2,HR hours
+117,2022-12-14,1,HR hours
+118,2022-12-15,1,HR hours
+119,2022-12-25,1,HR hours
+120,2023-03-21,3,HR hours
+121,2023-03-23,3,HR hours
+122,2023-04-06,2,HR hours
+123,2023-04-24,2,HR hours
+124,2023-04-25,2,HR hours
+125,2022-11-05,1,HR hours
+126,2022-11-12,2,HR hours
+127,2022-11-13,1,HR hours
+128,2022-09-08,1,HR hours
+129,2022-09-09,1,HR hours
+130,2022-09-18,1,HR hours
+131,2022-09-19,1,HR hours
+132,2022-09-21,1,HR hours
+133,2022-09-22,2,HR hours
+134,2022-09-23,2,HR hours
+135,2022-09-24,1,HR hours
+136,2022-09-25,1,HR hours
+137,2022-09-26,1,HR hours
+138,2023-01-30,2,HR hours
+139,2023-02-10,3,HR hours
+140,2023-01-16,2,HR hours
+141,2023-01-17,1,HR hours
+142,2023-01-18,1,HR hours
+143,2023-01-19,1,HR hours
+144,2023-01-21,1,HR hours
+145,2023-01-22,1,HR hours
+146,2023-01-23,1,HR hours
+147,2023-01-24,1,HR hours
+148,2023-01-25,1,HR hours
+149,2023-01-26,3,HR hours
+150,2023-01-27,2,HR hours
+151,2023-01-28,2,HR hours
+152,2023-01-31,3,HR hours
+153,2023-02-01,2,HR hours
+154,2023-02-02,3,HR hours
+155,2023-02-04,2,HR hours
+156,2023-02-05,3,HR hours
+157,2023-02-07,1,HR hours
+158,2023-02-08,2,HR hours
+159,2023-02-09,2,HR hours
+160,2023-02-11,2,HR hours
+161,2023-02-12,2,HR hours
+162,2023-02-17,2,HR hours
+163,2023-02-03,1,HR hours
+164,2023-02-06,1,HR hours
+165,2023-02-24,3,HR hours
+166,2023-02-25,3,HR hours
+167,2023-03-20,2,HR hours
+168,2023-03-25,1,HR hours
+169,2023-03-28,3,HR hours
+170,2023-03-27,2,HR hours
+171,2023-03-29,2,HR hours
+172,2023-03-30,2,HR hours
+173,2023-04-04,1,HR hours
+174,2023-04-07,1,HR hours
+175,2023-04-09,1,HR hours
+176,2023-04-10,1,HR hours
+177,2023-04-11,1,HR hours
+178,2023-04-12,1,HR hours
+179,2023-04-13,1,HR hours
+180,2023-04-14,1,HR hours
+181,2023-04-19,1,HR hours
+182,2023-04-20,1,HR hours
+183,2023-04-21,1,HR hours
+184,2023-04-22,1,HR hours
+185,2023-04-23,1,HR hours
+186,2023-04-27,1,HR hours
+187,2023-04-28,1,HR hours
+188,2023-04-29,1,HR hours
+189,2023-04-30,1,HR hours
+190,2023-02-20,2,HR hours
+191,2023-02-21,2,HR hours
+192,2023-02-22,2,HR hours
+193,2023-02-23,1,HR hours
+194,2023-02-26,2,HR hours
+195,2023-03-22,1,HR hours
+196,2023-03-24,1,HR hours
+197,2023-04-01,1,HR hours
+198,2023-04-02,1,HR hours
+199,2023-04-03,1,HR hours
+200,2023-01-29,1,HR hours
+201,2023-02-18,1,HR hours
+202,2023-02-19,1,HR hours
+203,2023-02-27,6,Active move moment hours
+204,2022-11-25,4,Active move moment hours
+205,2022-11-26,3,Active move moment hours
+206,2022-11-27,4,Active move moment hours
+207,2022-11-28,5,Active move moment hours
+208,2022-11-29,6,Active move moment hours
+209,2022-11-30,5,Active move moment hours
+210,2022-12-01,5,Active move moment hours
+211,2022-12-02,5,Active move moment hours
+212,2022-12-03,4,Active move moment hours
+213,2022-12-04,5,Active move moment hours
+214,2022-12-05,5,Active move moment hours
+215,2022-12-06,5,Active move moment hours
+216,2022-12-07,4,Active move moment hours
+217,2022-12-08,3,Active move moment hours
+218,2022-12-10,2,Active move moment hours
+219,2022-12-11,3,Active move moment hours
+220,2022-12-12,2,Active move moment hours
+221,2022-12-13,2,Active move moment hours
+222,2022-12-16,2,Active move moment hours
+223,2022-12-17,2,Active move moment hours
+224,2022-12-18,2,Active move moment hours
+225,2022-12-19,2,Active move moment hours
+226,2022-12-20,2,Active move moment hours
+227,2022-12-21,2,Active move moment hours
+228,2022-12-22,2,Active move moment hours
+229,2022-12-23,2,Active move moment hours
+230,2022-12-24,1,Active move moment hours
+231,2022-12-27,2,Active move moment hours
+232,2022-12-28,1,Active move moment hours
+233,2022-12-29,1,Active move moment hours
+234,2023-02-13,4,Active move moment hours
+235,2022-09-27,2,Active move moment hours
+236,2022-09-28,3,Active move moment hours
+237,2022-09-29,3,Active move moment hours
+238,2022-09-30,3,Active move moment hours
+239,2022-10-01,2,Active move moment hours
+240,2022-10-02,2,Active move moment hours
+241,2022-10-03,3,Active move moment hours
+242,2022-10-04,3,Active move moment hours
+243,2022-10-05,3,Active move moment hours
+244,2022-10-06,4,Active move moment hours
+245,2022-10-07,4,Active move moment hours
+246,2022-10-08,5,Active move moment hours
+247,2022-10-09,4,Active move moment hours
+248,2022-10-11,7,Active move moment hours
+249,2022-10-12,7,Active move moment hours
+250,2022-10-13,6,Active move moment hours
+251,2022-10-14,6,Active move moment hours
+252,2022-10-15,6,Active move moment hours
+253,2022-10-16,6,Active move moment hours
+254,2022-10-17,6,Active move moment hours
+255,2022-10-18,5,Active move moment hours
+256,2022-10-20,6,Active move moment hours
+257,2022-10-23,6,Active move moment hours
+258,2022-10-27,7,Active move moment hours
+259,2022-10-28,4,Active move moment hours
+260,2022-10-22,5,Active move moment hours
+261,2022-10-24,5,Active move moment hours
+262,2022-10-31,3,Active move moment hours
+263,2022-11-06,3,Active move moment hours
+264,2022-09-14,1,Active move moment hours
+265,2022-09-15,1,Active move moment hours
+266,2022-09-16,1,Active move moment hours
+267,2022-11-14,5,Active move moment hours
+268,2022-11-15,2,Active move moment hours
+269,2022-11-16,2,Active move moment hours
+270,2022-11-17,3,Active move moment hours
+271,2022-11-18,2,Active move moment hours
+272,2022-11-19,2,Active move moment hours
+273,2022-11-20,2,Active move moment hours
+274,2022-11-21,3,Active move moment hours
+275,2022-11-22,3,Active move moment hours
+276,2022-11-23,1,Active move moment hours
+277,2022-11-24,2,Active move moment hours
+278,2022-11-07,4,Active move moment hours
+279,2022-11-10,4,Active move moment hours
+280,2023-02-14,2,Active move moment hours
+281,2023-02-15,2,Active move moment hours
+282,2023-02-16,2,Active move moment hours
+283,2023-02-28,5,Active move moment hours
+284,2023-03-01,4,Active move moment hours
+285,2023-03-02,3,Active move moment hours
+286,2023-03-03,3,Active move moment hours
+287,2023-03-04,3,Active move moment hours
+288,2023-03-05,3,Active move moment hours
+289,2023-03-06,4,Active move moment hours
+290,2023-03-07,4,Active move moment hours
+291,2023-03-08,3,Active move moment hours
+292,2023-03-09,1,Active move moment hours
+293,2023-03-10,2,Active move moment hours
+294,2023-03-11,2,Active move moment hours
+295,2023-03-12,3,Active move moment hours
+296,2023-03-13,4,Active move moment hours
+297,2023-03-14,4,Active move moment hours
+298,2023-03-15,4,Active move moment hours
+299,2023-03-16,2,Active move moment hours
+300,2023-03-17,2,Active move moment hours
+301,2023-03-18,2,Active move moment hours
+302,2022-10-10,3,Active move moment hours
+303,2022-10-19,4,Active move moment hours
+304,2022-10-21,4,Active move moment hours
+305,2022-10-25,6,Active move moment hours
+306,2022-10-26,4,Active move moment hours
+307,2022-10-29,3,Active move moment hours
+308,2022-10-30,2,Active move moment hours
+309,2022-11-01,2,Active move moment hours
+310,2022-11-02,3,Active move moment hours
+311,2022-11-03,3,Active move moment hours
+312,2022-11-08,4,Active move moment hours
+313,2022-11-09,4,Active move moment hours
+314,2022-11-11,3,Active move moment hours
+315,2022-12-09,2,Active move moment hours
+316,2023-03-19,2,Active move moment hours
+317,2023-04-05,2,Active move moment hours
+318,2022-12-14,1,Active move moment hours
+319,2022-12-15,1,Active move moment hours
+320,2022-12-25,1,Active move moment hours
+321,2023-03-21,3,Active move moment hours
+322,2023-03-22,2,Active move moment hours
+323,2023-03-23,3,Active move moment hours
+324,2023-04-06,2,Active move moment hours
+325,2023-04-24,2,Active move moment hours
+326,2023-04-25,2,Active move moment hours
+327,2022-11-04,1,Active move moment hours
+328,2022-11-05,1,Active move moment hours
+329,2022-11-12,2,Active move moment hours
+330,2022-11-13,1,Active move moment hours
+331,2022-09-08,1,Active move moment hours
+332,2022-09-09,1,Active move moment hours
+333,2022-09-10,1,Active move moment hours
+334,2022-09-18,1,Active move moment hours
+335,2022-09-19,1,Active move moment hours
+336,2022-09-20,1,Active move moment hours
+337,2022-09-21,1,Active move moment hours
+338,2022-09-22,2,Active move moment hours
+339,2022-09-23,2,Active move moment hours
+340,2022-09-24,1,Active move moment hours
+341,2022-09-25,1,Active move moment hours
+342,2022-09-26,1,Active move moment hours
+343,2023-01-30,3,Active move moment hours
+344,2023-02-10,3,Active move moment hours
+345,2023-01-16,2,Active move moment hours
+346,2023-01-17,1,Active move moment hours
+347,2023-01-18,1,Active move moment hours
+348,2023-01-19,2,Active move moment hours
+349,2023-01-21,1,Active move moment hours
+350,2023-01-22,1,Active move moment hours
+351,2023-01-23,1,Active move moment hours
+352,2023-01-24,1,Active move moment hours
+353,2023-01-25,1,Active move moment hours
+354,2023-01-26,3,Active move moment hours
+355,2023-01-27,2,Active move moment hours
+356,2023-01-28,2,Active move moment hours
+357,2023-01-31,2,Active move moment hours
+358,2023-02-01,2,Active move moment hours
+359,2023-02-02,3,Active move moment hours
+360,2023-02-04,2,Active move moment hours
+361,2023-02-05,2,Active move moment hours
+362,2023-02-07,1,Active move moment hours
+363,2023-02-08,1,Active move moment hours
+364,2023-02-09,1,Active move moment hours
+365,2023-02-11,2,Active move moment hours
+366,2023-02-12,2,Active move moment hours
+367,2023-02-17,1,Active move moment hours
+368,2023-02-03,1,Active move moment hours
+369,2023-02-06,1,Active move moment hours
+370,2023-02-24,3,Active move moment hours
+371,2023-02-25,3,Active move moment hours
+372,2023-03-20,2,Active move moment hours
+373,2023-03-25,1,Active move moment hours
+374,2023-03-28,3,Active move moment hours
+375,2023-03-27,2,Active move moment hours
+376,2023-03-29,2,Active move moment hours
+377,2023-03-30,2,Active move moment hours
+378,2023-04-04,1,Active move moment hours
+379,2023-04-07,1,Active move moment hours
+380,2023-04-09,1,Active move moment hours
+381,2023-04-10,1,Active move moment hours
+382,2023-04-11,1,Active move moment hours
+383,2023-04-12,1,Active move moment hours
+384,2023-04-13,1,Active move moment hours
+385,2023-04-14,1,Active move moment hours
+386,2023-04-19,1,Active move moment hours
+387,2023-04-20,1,Active move moment hours
+388,2023-04-21,1,Active move moment hours
+389,2023-04-22,1,Active move moment hours
+390,2023-04-23,1,Active move moment hours
+391,2023-04-27,1,Active move moment hours
+392,2023-04-28,1,Active move moment hours
+393,2023-04-29,1,Active move moment hours
+394,2023-02-20,1,Active move moment hours
+395,2023-02-21,2,Active move moment hours
+396,2023-02-22,2,Active move moment hours
+397,2023-02-23,1,Active move moment hours
+398,2023-02-26,2,Active move moment hours
+399,2023-03-24,1,Active move moment hours
+400,2023-04-01,1,Active move moment hours
+401,2023-04-02,1,Active move moment hours
+402,2023-04-03,1,Active move moment hours
+403,2023-02-18,1,Active move moment hours
+404,2023-02-19,1,Active move moment hours
+405,2023-02-27,7,QoR completion
+406,2023-03-11,6,QoR completion
+407,2023-03-12,2,QoR completion
+408,2023-03-16,5,QoR completion
+409,2023-03-20,7,QoR completion
+410,2023-03-21,6,QoR completion
+411,2023-03-22,4,QoR completion
+412,2023-03-24,6,QoR completion
+413,2023-03-27,6,QoR completion
+414,2023-03-31,6,QoR completion
+415,2022-09-20,3,QoR completion
+416,2022-09-21,2,QoR completion
+417,2022-09-22,2,QoR completion
+418,2022-09-23,4,QoR completion
+419,2022-09-24,4,QoR completion
+420,2022-09-25,4,QoR completion
+421,2022-09-26,3,QoR completion
+422,2022-09-27,4,QoR completion
+423,2022-09-28,5,QoR completion
+424,2022-09-29,4,QoR completion
+425,2022-09-30,6,QoR completion
+426,2022-10-01,5,QoR completion
+427,2022-10-02,4,QoR completion
+428,2022-10-03,5,QoR completion
+429,2022-10-04,6,QoR completion
+430,2022-10-05,5,QoR completion
+431,2022-10-06,7,QoR completion
+432,2022-10-07,5,QoR completion
+433,2022-10-08,6,QoR completion
+434,2022-10-09,5,QoR completion
+435,2022-10-11,6,QoR completion
+436,2022-10-12,10,QoR completion
+437,2022-10-13,8,QoR completion
+438,2022-10-14,9,QoR completion
+439,2022-10-15,7,QoR completion
+440,2022-10-16,7,QoR completion
+441,2022-10-17,6,QoR completion
+442,2022-10-18,5,QoR completion
+443,2022-10-19,7,QoR completion
+444,2022-10-20,7,QoR completion
+445,2022-11-25,4,QoR completion
+446,2022-11-26,3,QoR completion
+447,2022-11-27,4,QoR completion
+448,2022-11-28,5,QoR completion
+449,2022-11-29,6,QoR completion
+450,2022-11-30,6,QoR completion
+451,2022-12-01,5,QoR completion
+452,2022-12-02,5,QoR completion
+453,2022-12-04,5,QoR completion
+454,2022-12-05,5,QoR completion
+455,2022-12-06,3,QoR completion
+456,2022-12-08,8,QoR completion
+457,2022-12-09,4,QoR completion
+458,2022-12-10,5,QoR completion
+459,2022-12-11,2,QoR completion
+460,2022-12-12,5,QoR completion
+461,2022-12-13,6,QoR completion
+462,2022-12-14,2,QoR completion
+463,2022-12-17,3,QoR completion
+464,2022-12-18,1,QoR completion
+465,2022-12-19,3,QoR completion
+466,2022-12-20,3,QoR completion
+467,2022-12-21,3,QoR completion
+468,2022-12-23,2,QoR completion
+469,2022-12-24,3,QoR completion
+470,2022-12-25,3,QoR completion
+471,2022-12-27,3,QoR completion
+472,2022-12-28,3,QoR completion
+473,2023-02-13,7,QoR completion
+474,2022-10-21,5,QoR completion
+475,2022-10-22,6,QoR completion
+476,2022-10-23,4,QoR completion
+477,2022-10-24,5,QoR completion
+478,2022-10-27,6,QoR completion
+479,2022-10-28,7,QoR completion
+480,2022-10-26,5,QoR completion
+481,2022-10-30,4,QoR completion
+482,2022-10-31,3,QoR completion
+483,2022-11-02,5,QoR completion
+484,2022-11-03,2,QoR completion
+485,2022-11-05,1,QoR completion
+486,2022-11-06,2,QoR completion
+487,2022-11-11,5,QoR completion
+488,2022-11-13,3,QoR completion
+489,2022-09-14,1,QoR completion
+490,2022-09-16,1,QoR completion
+491,2022-09-17,1,QoR completion
+492,2022-09-18,2,QoR completion
+493,2022-09-19,2,QoR completion
+494,2022-10-10,6,QoR completion
+495,2022-11-14,4,QoR completion
+496,2022-11-15,4,QoR completion
+497,2022-11-16,3,QoR completion
+498,2022-11-18,4,QoR completion
+499,2022-11-19,4,QoR completion
+500,2022-11-20,4,QoR completion
+501,2022-11-21,4,QoR completion
+502,2022-11-22,4,QoR completion
+503,2022-11-23,3,QoR completion
+504,2022-11-24,3,QoR completion
+505,2022-12-03,6,QoR completion
+506,2022-12-07,4,QoR completion
+507,2022-11-07,5,QoR completion
+508,2022-11-08,5,QoR completion
+509,2022-11-10,4,QoR completion
+510,2023-02-14,4,QoR completion
+511,2023-02-15,3,QoR completion
+512,2023-02-16,4,QoR completion
+513,2023-02-28,7,QoR completion
+514,2023-03-01,7,QoR completion
+515,2023-03-02,5,QoR completion
+516,2023-03-04,5,QoR completion
+517,2023-03-05,4,QoR completion
+518,2023-03-06,4,QoR completion
+519,2023-03-07,5,QoR completion
+520,2023-03-09,4,QoR completion
+521,2023-03-14,6,QoR completion
+522,2023-03-15,5,QoR completion
+523,2023-03-17,5,QoR completion
+524,2022-10-25,5,QoR completion
+525,2022-10-29,3,QoR completion
+526,2022-11-01,4,QoR completion
+527,2022-11-04,3,QoR completion
+528,2022-11-09,2,QoR completion
+529,2022-11-17,2,QoR completion
+530,2023-03-08,3,QoR completion
+531,2023-03-13,7,QoR completion
+532,2023-03-18,5,QoR completion
+533,2023-03-19,4,QoR completion
+534,2023-03-23,4,QoR completion
+535,2023-03-25,5,QoR completion
+536,2023-03-26,4,QoR completion
+537,2023-03-28,6,QoR completion
+538,2023-03-29,5,QoR completion
+539,2023-03-30,5,QoR completion
+540,2023-04-01,6,QoR completion
+541,2023-04-02,4,QoR completion
+542,2023-04-03,6,QoR completion
+543,2023-04-04,4,QoR completion
+544,2023-04-05,5,QoR completion
+545,2022-12-15,1,QoR completion
+546,2022-12-16,1,QoR completion
+547,2023-04-06,4,QoR completion
+548,2023-04-08,4,QoR completion
+549,2023-04-09,2,QoR completion
+550,2023-04-10,4,QoR completion
+551,2023-04-11,4,QoR completion
+552,2023-04-12,3,QoR completion
+553,2023-04-13,4,QoR completion
+554,2023-04-14,4,QoR completion
+555,2023-04-15,4,QoR completion
+556,2023-04-16,4,QoR completion
+557,2023-04-18,3,QoR completion
+558,2023-04-19,2,QoR completion
+559,2023-04-21,3,QoR completion
+560,2023-04-22,3,QoR completion
+561,2023-04-23,2,QoR completion
+562,2023-04-25,2,QoR completion
+563,2023-04-07,3,QoR completion
+564,2023-04-17,2,QoR completion
+565,2023-04-24,3,QoR completion
+566,2023-04-30,2,QoR completion
+567,2023-05-02,2,QoR completion
+568,2023-05-03,2,QoR completion
+569,2023-05-04,2,QoR completion
+570,2023-05-05,1,QoR completion
+571,2022-11-12,2,QoR completion
+572,2023-01-30,4,QoR completion
+573,2023-01-31,4,QoR completion
+574,2023-02-01,4,QoR completion
+575,2023-02-02,3,QoR completion
+576,2023-02-03,3,QoR completion
+577,2023-02-11,4,QoR completion
+578,2023-03-03,4,QoR completion
+579,2023-02-10,3,QoR completion
+580,2023-02-12,3,QoR completion
+581,2023-02-17,3,QoR completion
+582,2023-02-18,3,QoR completion
+583,2023-02-19,3,QoR completion
+584,2023-02-20,4,QoR completion
+585,2023-02-21,2,QoR completion
+586,2023-02-22,2,QoR completion
+587,2023-02-23,2,QoR completion
+588,2023-02-24,3,QoR completion
+589,2023-02-25,4,QoR completion
+590,2023-02-26,4,QoR completion
+591,2023-03-10,3,QoR completion
+592,2023-04-26,2,QoR completion
+593,2023-04-27,2,QoR completion
+594,2023-04-28,2,QoR completion
+595,2023-04-29,2,QoR completion
+596,2023-05-01,1,QoR completion
+597,2022-12-22,1,QoR completion
+598,2022-12-29,1,QoR completion
+599,2022-12-30,1,QoR completion
+600,2022-12-31,1,QoR completion
+601,2023-01-16,2,QoR completion
+602,2023-01-17,1,QoR completion
+603,2023-01-18,1,QoR completion
+604,2023-01-19,2,QoR completion
+605,2023-01-20,1,QoR completion
+606,2023-01-21,1,QoR completion
+607,2023-01-22,1,QoR completion
+608,2023-01-23,1,QoR completion
+609,2023-01-24,1,QoR completion
+610,2023-01-25,1,QoR completion
+611,2023-01-26,3,QoR completion
+612,2023-01-27,2,QoR completion
+613,2023-01-28,2,QoR completion
+614,2023-01-29,2,QoR completion
+615,2023-02-04,3,QoR completion
+616,2023-02-05,3,QoR completion
+617,2023-02-06,3,QoR completion
+618,2023-02-07,2,QoR completion
+619,2023-02-08,3,QoR completion
+620,2023-02-09,1,QoR completion
+621,2023-04-20,1,QoR completion
+622,2023-02-27,42,adjustChart
