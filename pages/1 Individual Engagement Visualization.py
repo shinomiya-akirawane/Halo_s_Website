@@ -16,7 +16,7 @@ def get_point_chart(data):
     if len(data) < 0:
         return alt.LayerChart()
     chart = alt.Chart(data).mark_circle().encode(
-        alt.X('submit_datetime:T',title = 'Date'),
+        alt.X('day_order',title = 'Date'),
         alt.Y('dot_height',title = 'Record Time Length'),
         color = alt.Color('type:N',scale = alt.Scale(domain=['HR hours', 'QoR completion','Active move moment hours','adjustChart'], range=['red', 'blue','green','white'])),
     )
@@ -26,7 +26,7 @@ def get_line_chart(data):
     if len(data) < 0:
         return alt.LayerChart()
     chart = alt.Chart(data).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")).encode(
-        alt.X('date:T',title = 'Date'),
+        alt.X('day_order',title = 'Date'),
         alt.Y('time_length:Q',title = 'Record Time Length'),
         color = alt.Color('type:N',scale = alt.Scale(domain=['HR hours', 'QoR completion','Active move moment hours','adjustChart'], range=['red', 'blue','green','white'])),
     )
@@ -47,6 +47,7 @@ else:
     with open(os.path.join('.','df_data','Engagement_bar_30days_with_zero.pkl'),'rb') as f:
         bar_df = pickle.load(f)
         bar_df = bar_df.loc[(bar_df['patient_id'] == patient_id) ,:]
+bar_df['day_order'] = [i for i in range(0,len(bar_df))]
 if bar_chart_display:
     chart = alt.layer(get_bar_chart(bar_df),get_point_chart(dot_df),get_line_chart(bar_df))
 else:
