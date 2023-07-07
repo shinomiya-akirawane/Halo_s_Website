@@ -24,17 +24,17 @@ def get_point_chart(data,tooltip):
 
 graph_title = st.subheader('Data availability of NO.'+ str(patient_id))
 heart_tooltip = [
-    alt.Tooltip('record_date:T',title = 'Date'),
+    alt.Tooltip('record_date:T',title = 'Day'),
     alt.Tooltip('min_HR:Q',title = 'min HR(bpm)'),
     alt.Tooltip('max_HR:Q',title = 'max HR(bpm)'),
     alt.Tooltip('avg_HR:Q',title = 'avg HR(bpm)'),
 ]
 step_tooltip = [
-    alt.Tooltip('record_date:T',title = 'Date'),
+    alt.Tooltip('record_date:T',title = 'Day'),
     alt.Tooltip('steps:Q',title = 'avg steps'),
                 ]
 qor_tooltip = [
-    alt.Tooltip('record_date:T',title = 'Date'),
+    alt.Tooltip('record_date:T',title = 'Day'),
     alt.Tooltip('complete_num:Q',title = 'complete num'),
 ]
 with open(os.path.join('.','df_data','Engagement_30days.pkl'),'rb') as f:

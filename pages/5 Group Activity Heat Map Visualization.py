@@ -7,7 +7,7 @@ def get_point_chart(data):
     if len(data) < 0:
         return alt.LayerChart()
     chart = alt.Chart(data).mark_circle().encode(
-        alt.X('start_date:T',title = 'date'),
+        alt.X('fixed_period',title = 'Day'),
         alt.Y('hoursminutes(start_time):T',title = 'time of day'),
         color ='steps:Q'
     ).properties(
