@@ -33,6 +33,15 @@ def get_area_chart_2(chart_df):
     )
     return chart
 
+def get_cirtical_point_chart(data):
+    if len(data) < 0:
+        return alt.LayerChart()
+    chart = alt.Chart(data).mark_circle().encode(
+        alt.X('fixed_period',title = 'Day'),
+        alt.Y('hoursminutes(start_time):T',title = 'time of day'),
+        color = alt.ColorValue('red')
+    )
+    return chart.interactive(bind_y = False)
 # page strcutrue start here
 patient_id = st.number_input('patient id',min_value=1,max_value=42)
 graph_title = st.subheader('Data availability of NO.'+ str(patient_id))
@@ -48,5 +57,6 @@ with open(os.path.join('.','df_data','individual_activity_visualization_heat_map
     chart_df = pickle.load(f)
     chart_df = chart_df.loc[(chart_df['patient_id'] == patient_id) ,:]
 chart = alt.layer(chart,get_point_chart(chart_df.loc[(chart_df['type'] == 'step'),:]))
+chart = alt.layer(chart,get_cirtical_point_chart(chart_df.loc[(chart_df['type'] == 'critical'),:]))
 chart = alt.layer(chart,get_point_chart(chart_df.loc[(chart_df['type'] == 'adjustChart'),:]))
 st.altair_chart(chart,use_container_width=True)
