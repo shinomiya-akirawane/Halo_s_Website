@@ -25,7 +25,7 @@ question_dict = {
     'sad' : 15,
     'pain' : 11
 }
-patient_id = st.number_input('patient id',min_value=1,max_value=42)
+patient_id = st.number_input('patient id',min_value=1,max_value=45)
 questions = st.multiselect('Please choose which question to display: ',['sleep','rested','food','breathing','comfortable','wellbeing','worries','sad','pain'])
 chart = alt.LayerChart()
 patient_qor_df = qor_df.loc[qor_df['patient_id'] == patient_id,:]
