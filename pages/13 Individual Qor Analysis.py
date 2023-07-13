@@ -9,7 +9,7 @@ def get_line_chart(data):
     chart = alt.Chart(data).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")).encode(
         alt.X('fixed_period',title = 'Day'),
         alt.Y('answer:Q',title = 'Record Time Length',scale=alt.Scale(domain=(0, 11))),
-        color = alt.Color('question_context:N'),
+        color = alt.Color('question_context:N',scale = alt.Scale(domain=['Severe pain'], range=['#dc143c'])),
     )
     return chart.interactive()
 with open(os.path.join('.','df_data','qor_df_with_fixed_period.pkl'),'rb') as f:

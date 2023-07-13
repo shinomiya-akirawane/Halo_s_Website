@@ -17,7 +17,7 @@ def get_point_chart(data):
         return alt.LayerChart()
     chart = alt.Chart(data).mark_circle().encode(
         alt.X('fixed_period',title = 'Day'),
-        alt.Y('dot_height',title = 'Record Time Length'),
+        alt.Y('dot_height',title = 'Record Time Length',scale=alt.Scale(domain=(0, 24),padding = 2)),
         color = alt.Color('type:N',scale = alt.Scale(domain=['HR hours', 'QoR completion','Active move moment hours','adjustChart'], range=['red', 'blue','green','white'])),
     )
     return chart.interactive()
