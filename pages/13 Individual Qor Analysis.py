@@ -8,7 +8,7 @@ def get_line_chart(data):
         return alt.LayerChart()
     chart = alt.Chart(data).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")).encode(
         alt.X('fixed_period',title = 'Day'),
-        alt.Y('answer:Q',title = 'Record Time Length'),
+        alt.Y('answer:Q',title = 'Record Time Length',scale=alt.Scale(domain=(0, 11))),
         color = alt.Color('question_context:N'),
     )
     return chart.interactive()

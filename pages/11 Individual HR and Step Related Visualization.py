@@ -7,7 +7,7 @@ patient_id = st.number_input('patient id',min_value=1,max_value=42)
 def get_bar_chart(data):
     chart = alt.Chart(data).mark_bar().encode(
         alt.X('day',title = 'Day'),
-        alt.Y('time_length',title = 'Time Length(Hours)',stack=True),
+        alt.Y('time_length:Q',title = 'Time Length(Hours)',stack=True),
         alt.Color('situation:N'),
         order=alt.Order('situation:N', sort='descending')
     )

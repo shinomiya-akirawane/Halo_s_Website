@@ -8,7 +8,7 @@ def get_line_chart(data):
         return alt.LayerChart()
     chart = alt.Chart(data).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")).encode(
         alt.X('fixed_period',title = 'Day'),
-        alt.Y('answer:Q',title = 'Record Time Length'),
+        alt.Y('answer:Q',title = 'Record Time Length',scale=alt.Scale(domain=(0, 11))),
         color = alt.Color('patient_id:N'),
     ).properties(
     width=1400,
@@ -26,7 +26,8 @@ question_dict = {
     'wellbeing' : 10,
     'worries' : 14,
     'sad' : 15,
-    'pain' : 11
+    'moderate pain' : 11,
+    'severe pain' : 12
 }
 questions = st.multiselect('Please choose which question to display: ',['sleep','rested','food','breathing','comfortable','wellbeing','worries','sad','pain'])
 chart = alt.LayerChart()

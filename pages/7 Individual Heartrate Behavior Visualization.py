@@ -8,7 +8,7 @@ def get_line_chart(data,y_value:str):
     if len(data) < 0:
         return alt.LayerChart()
     chart = alt.Chart(data).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")).encode(
-        alt.X('start_datetime:T',title = 'Day'),
+        alt.X('fixed_period',title = 'Day'),
         alt.Y(y_value,title = y_value))
     return chart.interactive()
 
@@ -16,7 +16,7 @@ def get_bar_chart(data):
     if len(data) < 0:
         return alt.LayerChart()
     chart = alt.Chart(data).mark_bar().encode(
-        alt.X('date:T',title = 'Day'),
+        alt.X('fixed_period',title = 'Day'),
         alt.Y('time_length',title = 'Time length'),
         alt.Color('type:N')
     )
