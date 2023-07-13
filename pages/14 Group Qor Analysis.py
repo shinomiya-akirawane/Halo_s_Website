@@ -29,7 +29,7 @@ question_dict = {
     'moderate pain' : 11,
     'severe pain' : 12
 }
-questions = st.multiselect('Please choose which question to display: ',['sleep','rested','food','breathing','comfortable','wellbeing','worries','sad','pain'])
+questions = st.multiselect('Please choose which question to display: ',['sleep','rested','food','breathing','comfortable','wellbeing','worries','sad','moderate pain','severe pain'])
 chart = alt.LayerChart()
 for question in questions:
     question_id = question_dict[question]

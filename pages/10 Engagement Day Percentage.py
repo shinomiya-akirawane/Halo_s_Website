@@ -7,7 +7,7 @@ def get_bar_chart(data):
     chart = alt.Chart(data).mark_bar().encode(
         alt.X('patient_id:Q',title = 'Patient ID'),
         alt.Y('engaged_day_num:Q',title = 'Number of days',stack=True),
-        alt.Color('level:N'),
+        alt.Color('level:N',scale = alt.Scale(domain=['3 high', '2 middle', '1 low'], range=['#0000FF', '#66b2ff', '#D3D3D3'])),
         order=alt.Order('level:N', sort='descending')
     ).properties(
     width=1400,
